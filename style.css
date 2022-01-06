@@ -1,9 +1,18 @@
+*{
+    margin:0;
+    padding: 0;
+}
 body{
-    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+    margin: 170px 0 0 170px;
 }
 
 section{
     display: flex;
+}
+
+.section-one{
+    margin: 170px 0 0 170px;
 }
 
 .half-width{
@@ -12,3 +21,72 @@ section{
 .half-width img{
     width: 60%;
 }
+.heading-mission{
+    color: #5C25B6;
+}
+
+.first-heading{
+    font-size: 70px;
+    border-left: 5px solid #FF2F9E;
+    padding: 10px;
+}
+section p {
+    font-size: 25px;
+    margin-top: 20px;
+}
+.section-two{
+    margin-top: 50px;
+    justify-content: center;
+}
+.mission-two{
+    color: #5C25B6;
+}
+.btn{
+    font-size: 20px;
+    padding: 20px 70px;
+    border-radius: 5px;
+    border-color: #FF31A1;
+    background: #FF31A1;
+    color: #fff;
+    margin-top: 30px;
+}
+.heading-two{
+    font-weight: bold;
+    font-size: 70px;
+}
+.illustrators{
+    padding: 70px 170px 0 170px;
+    margin-bottom: 70px;
+}
+.illustrators h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.illustrators img{
+   width : 40%;
+}
+.img-1{
+    background-color: rgba(0, 255, 255, 0.096);
+    margin-right: 40px;
+    padding: 40px;
+    border-radius: 50px;
+}
+.img-2{
+    background-color: #ff2f9e1c;
+    margin-right: 40px;
+    padding: 40px;
+    border-radius: 50px;
+}
+.img-3{
+    background-color: rgba(127, 255, 212, 0.192);
+    padding: 40px;
+    border-radius: 50px;
+}
+.section-3{
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+.section-3 img{background-image: url(images/shapes/shape-1.png);
+    background-size: 30%;
+    background-repeat: no-repeat;}
